@@ -1,0 +1,254 @@
+@charset "UTF-8";
+@import "variables";
+@import "fonts";
+@import "normalize";
+@import "general";
+@import "./blocks/blocks";
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(227, 248, 251),rgb(68, 172, 188));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .wrapper__titel {
+        width: 450px;
+        height: 550px;
+        background: #fff;
+        position: relative;
+
+        .wrapper__header {
+            width: 100%;
+            height: 60px;
+            background: #386dff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .wrapper__item {
+                width: 240px;
+                height: 60px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                color: #fff;
+
+                .wrapper__box {
+                    width: 10px;
+                    height: 10px;
+                    margin-left: 10px;
+                    background: rgb(255, 255, 255);
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                }
+            }
+
+            img {
+                width: 35px;
+                height: 35px;
+                cursor: pointer;
+            }
+        }
+
+
+        .nav {
+            width: 450px;
+            height: 30px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0 auto;
+            margin-top: 15px;
+
+
+            .nav__itel {
+                width: 170px;
+                height: 1px;
+                background: rgb(150, 150, 150);
+                
+            }
+
+            h4{
+                color: rgb(150, 150, 150);
+            }
+
+        }
+
+        .list {
+            width: 350px;
+            height: 80px;
+            margin: 10px;
+            margin-top: 15px;
+
+            li {
+                list-style-type: none;
+                color:rgb(150, 150, 150);
+            }
+
+            .list__item {
+                width: 280px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+                padding: 5px;
+                background: rgba(6, 255, 234, 0.34);
+                -webkit-border-radius: 10px;
+                -webkit-border-top-left-radius: 0;
+                -moz-border-radius: 15px;
+                -moz-border-radius-topleft: 0;
+                border-radius: 15px;
+                border-top-left-radius: 0;
+            }
+
+        }
+
+        .box {
+            width: 290px;
+            height: 80px;
+            position: absolute;
+            right: 0;
+            margin-top: 15px;
+
+
+            li {
+                list-style: none;
+                margin-left: 238px;
+                color:rgb(150, 150, 150);
+
+            }
+
+            .box__item {
+                width: 280px;
+                height: 50px;
+                background: #00b9b031;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 15px;
+                padding: 5px;
+                -webkit-border-radius: 15px;
+                -webkit-border-top-right-radius: 0;
+                -moz-border-radius: 15px;
+                -moz-border-radius-topright: 0;
+                border-radius: 15px;
+                border-top-right-radius: 0;
+            }
+        }
+
+
+
+        .card {
+            width: 200px;
+            height: 80px;
+            margin: 10px;
+            margin-top: 95px;
+
+            li {
+                list-style-type: none;
+                color: rgb(150, 150, 150);
+            }
+
+            .card__item {
+                width: 100px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 5px;
+                margin-top: 10px;
+                background: rgba(6, 255, 234, 0.34);
+                -webkit-border-radius: 10px;
+                -webkit-border-top-left-radius: 0;
+                -moz-border-radius: 15px;
+                -moz-border-radius-topleft: 0;
+                border-radius: 15px;
+                border-top-left-radius: 0;
+            }
+
+        }
+
+
+
+        .wrap {
+            width: 290px;
+            height: 80px;
+            position: absolute;
+            right: 0;
+            
+
+
+            .wrap__item {
+                width: 280px;
+                height: 50px;
+                background: #ef3e3e4b;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+                padding: 5px;
+                -webkit-border-radius: 15px;
+                -webkit-border-top-left-radius: 0;
+                -moz-border-radius: 15px;
+                -moz-border-radius-topleft: 0;
+                border-radius: 15px;
+                border-top-left-radius: 0;
+                -ms-border-radius: 15px;
+                -o-border-radius: 15px;
+}
+        }
+
+
+      .menu{
+            width: 95%;
+            height: 1px;
+            position: absolute;
+            bottom:60px;
+            left: 10px;
+            background:rgb(150, 150, 150);
+        }  
+        .inputs{
+            position: absolute;
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            bottom:5px;
+            
+
+
+            input{
+                width: 350px;
+                height: 30px;
+                outline: none;
+                border:none;
+}
+
+            li{
+                list-style-type: none;
+                color: rgb(37, 84, 255);
+                cursor: pointer;
+
+                
+            }
+            li:hover{
+                    cursor: pointer;
+                    color: rgb(255, 6, 6);
+                    
+                }
+
+        }
+
+    }
+
+
+
+
+}
